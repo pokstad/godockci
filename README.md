@@ -1,10 +1,17 @@
 # godockci
-Golang docker image for CI usage
+Golang docker image for CI usage.
 
 ## Usage
-TODO
+Pull it from docker hub and use the Go tools:
 
-For now, refer to the CircleCI integration of https://github.com/pokstad/vsaur
+`docker pull pokstad/godockci:latest`
+
+Refer to the CircleCI integration of https://github.com/pokstad/vsaur for more details.
+
+## Bundled Tools
+
+- Go v1.11
+- Gometalinter v2.0.11 (and vendored linters)
 
 ## Contributing
 Building a new version of the docker file:

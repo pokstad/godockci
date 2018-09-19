@@ -1,7 +1,7 @@
 FROM golang:1.11-alpine
 
 # Prereqs
-RUN apk add curl
+RUN apk add curl make
 
 # Install gometalinter
 ARG GOMETA_V=2.0.11
